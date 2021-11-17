@@ -1,23 +1,38 @@
+
 body{
   margin: 0;
   padding: 0;
   font-family: "Poppins" , sans-serif;
-  background: #363d67;
+  background: white;
 }
+
+.top{
+  background: #363d67;
+	width: auto;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  }
+
+.top img{
+  width: 3rem;
+  margin: 20px 0px;
+  }
+
 .box{
   width: 300px;
   padding: 40px;
   position: absolute;
-  top: 50%;
+  top: 300px;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: #191919;
+  background: white;
   text-align: center;
 }
 .box h1{
-  color: white;
+  color: #3498db;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 700;
 }
 .box input[type = "text"],.box input[type = "password"]{
   border:0;
@@ -29,7 +44,7 @@ body{
   padding: 14px 10px;
   width: 200px;
   outline: none;
-  color: white;
+  color: red;
   border-radius: 24px;
   transition: 0.25s;
 }
@@ -39,14 +54,14 @@ body{
 }
 .box input[type = "submit"]{
   border:0;
-  background: none;
+  background: #2ecc71;
   display: block;
   margin: 20px auto;
   text-align: center;
   border: 2px solid #2ecc71;
   padding: 14px 40px;
   outline: none;
-  color: white;
+  color: black;
   border-radius: 24px;
   transition: 0.25s;
   cursor: pointer;
